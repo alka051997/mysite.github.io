@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.heading{
+	text-align: center;
+}
+.card{
+	float: left;
+	width: 30%;
+	margin-left: 1%;
+}
+.card__img{
+	width: 100%;
+}

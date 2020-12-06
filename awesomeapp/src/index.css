@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+.heading{
+  text-align: center;
+ border-bottom: 1px solid;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.top_header{
+  margin-top:10px;
+}
+.myactivelink{
+  color: gainsboro;
+  font:bold;
+}
+.started{
+  background-color: red;
+}
+.img_size{
+  width: 100%;
+  height: 400px;
+}
+.btn_get_started{
+  background-color: rgb(129, 0, 90);
+    padding: 5px;
+    border-radius: 20px;
+    color: #ffff;
+    /* margin-top: 20px; */
+    display: inline-block;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+.btn_get_started:hover{
+  cursor: pointer;
+  color: #ffff;
+}
+
+.img_size{
+  transition: 2s;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  border-radius: 30px;
+}
+.img_size:hover{
+  border-radius: 30px;
+    box-shadow: 2px 2px 20px;
+    cursor: pointer;
+    transition: 2s;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.para{
+  text-align: justify;
+}
+.navbar-nav{
+  flex-direction: unset !important;
+}
+.footer_width{
+  background: #000;
+  width: 100%;
+  margin-top: 24px;
+
+}
+.footer_width>li{
+  margin-left: 20px;
+}
+.form_box{
+  background-color: #ccc2c2;
+    width: 48%;
+    padding: 36px;
+    margin-top: 55px;
+    border-radius: 19px;
+    box-shadow: 2px 2px 20px;
+}
+.logo_img{
+  width: 103px;
+    height: 77px;
+
+}
